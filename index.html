@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leaf animation</title>
+
+    <style>
+         .box{
+            width: 300px;
+            height: 300px;
+            background-color: #666;
+            animation-name:test ;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            position: relative;
+            animation-delay: 2s;
+         }
+      @keyframes test{
+        0%{
+            background-color: red;
+            left: 0;
+        }
+        50%{
+            background-color: green;
+            left: 200px;
+        }
+        70%{
+            background-color: yellowgreen;
+            left: 200px;
+        }
+      }
+
+
+    </style>
+</head>
+<body>
+
+<div class="box"></div>
+    
+</body>
+</html>
